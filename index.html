@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div id="menubar-mobile">
+            <div class="nav">
+    
+                <!-- ハンバーガーメニューの表示・非表示を切り替えるチェックボックス -->
+                <input id="drawer_input" class="drawer_hidden" type="checkbox">
+            
+                <!-- ハンバーガーアイコン -->
+                <label for="drawer_input" class="drawer_open"><span></span></label>
+            
+                <!-- メニュー -->
+                <nav class="nav_content">
+                  <ul class="nav_list">
+                    <li class="nav_item"><a href="">TOP</a></li>
+                    <li class="nav_item"><a href="">ABOUT</a></li>
+                    <li class="nav_item"><a href="">WORK</a></li>
+                    <li class="nav_item"><a href="">CONTACT</a></li>
+                  </ul>
+                </nav>
+           
+            </div>
+        </div>
+        <div id="menubar">
+            <div id="logo">
+                <img src="./img/header/LOGO.png">
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">WORK</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="header-catch">
+            <div id="header-catch-img">
+                <img class="sp" src="./img/header/re-header.png" alt="スマートフォン用の画像">
+                <img class="pc" src="./img/header/responsive-header.png" alt="パソコン用の画像">
+
+            </div>
+            <button>SEE MY WORK</button>
+        </div>
+    </header>
+    <main>
+        <div id="main-about">
+            <h1>ABOUT</h1>
+            <div id="in-main-about">
+                <div id="main-about-image">
+                    <img src="./img/top/ABOUT_ICON.png" alt="">
+                </div>
+                <div id="main-about-text">
+                    <p class="name">坂口 仁菜 <span> / Sakaguchi Nina</span></p>
+                    <p class="text">はじめまして。<br>帝京平成大学 人文社会学部 人間文化学科 メディア文化コースの坂口仁菜です。<br>Webデザイン、コーディングを勉強しています。</p>
+                    <button>READ MORE</button>
+                </div>
+    
+            </div>
+        </div>
+        <hr>
+        <div id="main-latestwork">
+            <div id="main-latestwork-title">
+                <h1>WORKS</h1>
+            </div>
+            <div id="main-latestwork-images">
+                <div class="main-latestwork">
+                    <img src="./img/top/WORK1.png" alt="">
+                    <p class="work-genre1">UI/UXデザイン</p>
+                </div>
+                <div class="main-latestwork">
+                    <img src="./img/top/WORK2.png" alt="">
+                    <p class="work-genre2">番組セットデザイン</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-main">
+            <div id="footer-title">Portfolio</div>
+            <div id="footer-menus">
+                <div class="footer-menu">
+                    <div class="footer-menu-title">MENU</div>
+                    <div class="footer-menu-item">
+                        <ul>
+                            <li>ABOUT</li>
+                            <li>WORKS</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="footer-sns">
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-x-twitter"></i></li>
+                </ul>
+
+            </div>
+        </div>
+        <div id="footer-sub">Copyright © 2023 Sammy. 
+            All Rights Reserved.</div>
+    </footer>
+</body>
+</html>
