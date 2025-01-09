@@ -12,6 +12,7 @@
 /*共通*/
 body{
     margin: 0px;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 img{
@@ -21,14 +22,14 @@ img{
 /*header*/
 header{
     color: var(--primary-color);
-    background-color: var(--secondary-bg);
-    position: fixed;
+    background-color: white;
 }
 
 
 #logo{
     width: 140px;
-    padding: 12px;
+    padding-top: 12px;
+    padding-left: 25px;
 }
 
 #header-catch-img {
@@ -130,12 +131,6 @@ main #main-about{
     background-color: #86aaf9;
 }
 
-
-main #main-latestwork{
-    color: var(--primary-color);
-    background-color: var(--primary-bg);
-}
-
 main #main-latestwork-title{
     padding-top: 30px;
     color: #7e7e7e;
@@ -165,20 +160,34 @@ main #main-latestwork img:hover{
     opacity: 1;
 }
 
-.work-genre1{
+.work-title1{
+    color: #6886c6;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: bold;
     letter-spacing: 3px;
-    padding-bottom: 36px;
+    padding-bottom: 30px;
 }
 
-.work-genre2{
+.work-title1 span{
+    font-size: 10px;
+    color: #a1a1a1;
+}
+
+
+.work-title2{
+    color: #6886c6;
     text-align: center;
-    font-size: 13px;
+    font-size: 16px;
+    font-weight: bold;
     letter-spacing: 3px;
 
 }
 
+.work-title2 span{
+    font-size: 10px;
+    color: #a1a1a1;
+}
 
 /*footer*/
 footer{
@@ -341,6 +350,7 @@ header{
 }
 .nav {
     margin-right: 40px;
+    margin-top: 45px;
 }
 /* チェックボックスを非表示にする */
 .drawer_hidden {
@@ -368,7 +378,7 @@ header{
     height: 3px;
     width: 36px;
     border-radius: 3px;
-    background: white;
+    background: black;
     transition: 0.5s;
     position: absolute;
   }
@@ -462,7 +472,7 @@ header{
     #menubar li {
         list-style: none;
         margin-right: 40px;
-        margin-top: 8px;
+        padding-top: 25%;
         font-size: 15px;
         font-weight: bold;
         letter-spacing: 3px;
@@ -472,11 +482,11 @@ header{
         text-decoration: none;
     }
     #menubar li a{
-        transition: 0.5s;
-        color: white;
+        transition: 0.3s;
+        color: black;
     }
     
     #menubar li a:hover {
-        color: rgb(85, 85, 85);
+        color: rgb(184, 184, 184);
     }
 }
